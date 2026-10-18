@@ -1,0 +1,15 @@
+{
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": true,
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never",
+    "--compile-commands-dir=${workspaceFolder}/build/debug",
+    "--query-driver=/usr/bin/**,/opt/homebrew/**"
+  ],
+  "editor.formatOnSave": true,
+  "[cpp]": { "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd" },
+  "files.associations": { "*.hpp": "cpp" }
+}
